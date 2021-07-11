@@ -227,7 +227,7 @@
             background-color: var(--dark-bg);
             color: var(--alt-title-cl);
             padding: 200px 0;
-            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(images/hero-img.jpg);
+            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero-img.jpg);
             background-repeat: no-repeat;
             background-size: 1600px auto;
             background-position: center;
