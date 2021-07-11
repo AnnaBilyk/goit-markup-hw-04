@@ -40,19 +40,14 @@
         }
         
         .section {
-            /* border: 2px dashed green; */
             padding: 94px 0;
         }
-        /*   div {
-        border: 2px dashed turquoise;
-    } */
         
         .container {
             margin: 0 auto;
             max-width: 1200px;
             width: 1200px;
             padding: 0 15px;
-            /*      border: 2px dashed tomato; */
         }
         
         .header {
