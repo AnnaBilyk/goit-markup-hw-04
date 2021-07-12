@@ -173,16 +173,6 @@
             align-items: flex-start;
         }
         
-        .social-link-icon {
-            width: 44px;
-            height: 44px;
-            padding: 12px;
-            fill: var(--primary-color);
-            border-radius: 50%;
-            overflow: visible;
-            margin-right: 10px;
-        }
-        
         .footer,
         .footer .text,
         .footer .logo {
@@ -205,6 +195,34 @@
             margin-bottom: 20px;
         }
         
+        .social-link {
+            width: 44px;
+            height: 44px;
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        .social-link-icon {
+            width: 44px;
+            height: 44px;
+            padding: 12px;
+            fill: var(--primary-color);
+            border-radius: 50%;
+            overflow: visible;
+        }
+        
+        .social-link:hover,
+        .social-link:focus,
+        .social-link-icon:hover,
+        .social-link-icon:focus {
+            background-color: var(--main-blu-tx);
+            color: var(--alt-title-cl);
+            fill: var(--alt-title-cl);
+        }
+        
         .socials-footer .social-link-icon {
             fill: var(--alt-title-cl);
             background-color: rgba(255, 255, 255, 0.1);
@@ -214,12 +232,6 @@
             width: 206px;
             justify-content: space-between;
         }
-        
-        .social-link-icon:hover,
-        .social-link-icon:focus {
-            background-color: var(--main-blu-tx);
-            fill: var(--alt-title-cl);
-        }
         /* index */
         
         .hero {
@@ -227,9 +239,9 @@
             background-color: var(--dark-bg);
             color: var(--alt-title-cl);
             padding: 200px 0;
-            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero-img.jpg);
+            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-img.jpg);
             background-repeat: no-repeat;
-            background-size: 1600px auto;
+            background-size: 1600px 100%;
             background-position: center;
         }
         
@@ -262,7 +274,7 @@
         .button:hover,
         .button:focus {
             background-color: var(--blue-prim-col);
-            border-color: var(--blue-prim-col);
+            border: 0;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         }
         
@@ -362,13 +374,43 @@
             color: var(--title-cl);
         }
         
+        .social-item {
+            margin-right: 10px;
+        }
+        
+        .social-item:last-child {
+            margin-right: 0;
+        }
+        
+        .client-link {
+            width: 170px;
+            height: 92px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+        }
+        
         .client-icon {
             width: 170px;
             height: 92px;
             padding: 16px 32px;
             fill: var(--primary-color);
-            border: 1px solid #AFB1B8;
-            border-radius: 4px;
+        }
+        
+        .client-icon:hover,
+        .client-icon:focus {
+            fill: var(--blue-prim-col);
+            color: var(--blue-prim-col);
+        }
+        
+        .client-link:hover,
+        .client-link:focus {
+            border: 0;
+            border: 1px solid var(--blue-prim-col);
+            color: var(--blue-prim-col);
         }
         /* Portfolio */
         
