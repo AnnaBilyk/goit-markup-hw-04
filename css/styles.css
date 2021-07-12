@@ -215,11 +215,13 @@
         }
         
         .social-link:hover,
-        .social-link:focus,
-        .social-link-icon:hover,
-        .social-link-icon:focus {
+        .social-link:focus {
             background-color: var(--main-blu-tx);
             color: var(--alt-title-cl);
+        }
+        
+        .social-link-icon:hover,
+        .social-link-icon:focus {
             fill: var(--alt-title-cl);
         }
         
