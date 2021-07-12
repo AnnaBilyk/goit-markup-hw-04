@@ -203,13 +203,14 @@
             align-items: center;
             justify-content: center;
             border-radius: 50%;
+            color: var(--primary-color);
         }
         
         .social-link-icon {
             width: 44px;
             height: 44px;
             padding: 12px;
-            fill: var(--primary-color);
+            fill: currentColor;
             border-radius: 50%;
             overflow: visible;
         }
@@ -220,14 +221,9 @@
             color: var(--alt-title-cl);
         }
         
-        .social-link-icon:hover,
-        .social-link-icon:focus {
-            fill: var(--alt-title-cl);
-        }
-        
         .socials-footer .social-link-icon {
-            fill: var(--alt-title-cl);
             background-color: rgba(255, 255, 255, 0.1);
+            fill: currentColor;
         }
         
         .socials-footer {
@@ -241,7 +237,7 @@
             background-color: var(--dark-bg);
             color: var(--alt-title-cl);
             padding: 200px 0;
-            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-img.jpg);
+            background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero-img.jpg);
             background-repeat: no-repeat;
             background-size: 1600px 100%;
             background-position: center;
@@ -393,19 +389,14 @@
             border-radius: 4px;
             border: 1px solid #AFB1B8;
             border-radius: 4px;
+            color: var(--title-cl);
         }
         
         .client-icon {
             width: 170px;
             height: 92px;
             padding: 16px 32px;
-            fill: var(--primary-color);
-        }
-        
-        .client-icon:hover,
-        .client-icon:focus {
-            fill: var(--blue-prim-col);
-            color: var(--blue-prim-col);
+            fill: currentColor;
         }
         
         .client-link:hover,
@@ -413,6 +404,7 @@
             border: 0;
             border: 1px solid var(--blue-prim-col);
             color: var(--blue-prim-col);
+            fill: var(--blue-prim-col);
         }
         /* Portfolio */
         
