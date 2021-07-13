@@ -50,6 +50,24 @@
             padding: 0 15px;
         }
         
+        .list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .link {
+            text-decoration: none;
+            color: var(--blc-clr-txt);
+            cursor: pointer;
+        }
+        
+        .link:hover,
+        .link:focus {
+            color: var(--main-blu-tx);
+        }
+        
         .header {
             font-weight: 500;
             font-size: 14px;
@@ -77,13 +95,6 @@
         
         .prefix {
             color: var(--main-blu-tx);
-        }
-        
-        .list {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
         }
         
         .navigation-list {
@@ -114,6 +125,7 @@
         .contact {
             display: flex;
             align-items: center;
+            color: var(--title-cl);
         }
         
         .contact-icon {
@@ -130,17 +142,6 @@
         
         .header-contact:last-child {
             margin: 0;
-        }
-        
-        .link {
-            text-decoration: none;
-            color: var(--blc-clr-txt);
-            cursor: pointer;
-        }
-        
-        .link:hover,
-        .link:focus {
-            color: var(--main-blu-tx);
         }
         
         .active {
@@ -170,7 +171,7 @@
         .footer .container {
             padding: 60px 15px;
             display: flex;
-            align-items: flex-start;
+            align-items: baseline;
         }
         
         .footer,
@@ -242,6 +243,7 @@
             background-size: cover;
             max-width: 1600px;
             background-position: center;
+            margin: auto;
         }
         
         .hero .container {
@@ -445,11 +447,6 @@
         .project {
             width: 370px;
             overflow: inherit;
-            di
-        }
-        
-        .project .link {
-            display: block;
         }
         
         .project .link:focus,
